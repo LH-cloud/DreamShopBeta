@@ -1,0 +1,30 @@
+.jumbotron{
+  background-image: url();
+  background-color: #cce6ff;
+}
+.lead{
+  display: inline-block;
+}
+#about{
+  margin-left: 2%;
+  margin-right: 2%;
+  font-family: times;
+  color: #001a33;
+}
+#abouthead{
+  margin-left: 2%;
+  margin-top: 2vh;
+  font-family: times;
+  font-weight: bolder;
+  color: #001a33;
+
+}
+footer{
+  bottom: 0;
+}
+input{
+  display: inline-block;
+}
+label{
+  display: inline-block;
+}

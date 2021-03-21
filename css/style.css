@@ -1,0 +1,217 @@
+@font-face {
+  font-family: mygooglefont;
+  src: url("fonts/SourceSansPro-Light.otf");
+}
+body{
+  font-family: mygooglefont;
+}
+header{
+  display: inline-block;
+  width: 100%;
+  background-color: #000066;
+  font-family: mygooglefont;
+
+}
+img.logo{
+  height: 7vh;
+}
+.navbar-brand{
+  color: #66d9ff !important;
+  font-weight: bolder;
+}
+li.active{
+  font-weight: bold;
+  color: #00ace6 !important;
+}
+.carousel-inner{
+  height: 70vh;
+  width: 60%;
+  margin: auto;
+  margin-top: 2%;
+}
+.carousel-caption{
+  color: #002533;
+  text-align: center;
+}
+div#carouselExampleCaptions{
+  height: 60vh;
+}
+.carousel-control-prev-icon {
+ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23#0083b3' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23#0083b3' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+.d-md-block{
+  margin-bottom:90%;
+}
+#offers{
+  font-weight: bold;
+  color: #66d9ff !important;
+  font-size: 100%;
+  margin-top: 2%;
+  text-align: center;
+}
+.carousel .carousel-indicators li {
+  background-color: #fff;
+  background-color: rgba(70, 70, 70, 0.25);
+}
+
+.carousel .carousel-indicators .active {
+  background-color: #444;
+}
+.categorycard{
+  margin-top: 10%;
+}
+
+.card-title{
+  padding-top: 20%;
+  font-family: times;
+  color: #00324d;
+  font-weight: bold;
+}
+.card{
+  border:none;
+}
+/*nav a{
+  font-family: mygooglefont;
+}
+ul.navigation{
+  margin: 0 auto;
+}
+nav li{
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    text-align: center;
+}
+nav ul li:first-child{
+  margin-left: 8%;
+}
+ul.navigation li{
+  display: inline-block;
+  width: 15%;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+ul.navigation li a{
+  text-decoration: none;
+  color: #ffffff;
+  text-transform: capitalize;
+}
+ul.sub li{
+  width: 100%;
+  line-height: 150%;
+  background-color: #00004d;
+  display: block;
+  height: 50px;
+  padding-top: 10px;
+}
+ul.sub{
+  display: none;
+  width: inherit;
+  position: absolute;
+  margin-top: 1.5%;
+  }
+  nav li:hover ul {
+     display: block;
+  }
+  nav li ul li {
+     display: block;
+   }
+   nav li:hover{
+     background-color: #8080ff;
+   }
+   ul.sub li:first-child{
+     margin-left: 3%;
+   }
+   li.active{
+     background: rgb(9,9,121);
+background: linear-gradient(90deg, rgba(9,9,121,1) 0%, rgba(9,9,121,1) 35%, rgba(255,153,204,1) 100%);
+background: -moz-linear-gradient(90deg, rgba(9,9,121,1) 0%, rgba(9,9,121,1) 35%, rgba(255,153,204,1) 100%);
+background: -o-linear-gradient(90deg, rgba(9,9,121,1) 0%, rgba(9,9,121,1) 35%, rgba(255,153,204,1) 100%);
+background: -webkit-linear-gradient(90deg, rgba(9,9,121,1) 0%, rgba(9,9,121,1) 35%, rgba(255,153,204,1) 100%);
+   }*/
+   section.DsCat{
+  margin-top: 5%;
+  margin-left: 25%;
+   }
+  .gallery-title{
+    font-weight: bolder !important;
+    color: #66d9ff;
+    font-size: 100%;
+  }
+
+   div.container1{
+     width: 60%;
+     display: inline-block;
+     float: right;
+     margin-right: 10%;
+   }
+   .jumbotron{
+     background-image:url("../imgs/background.jpg");
+   }
+   #ourMission{
+     font-family: times;
+     color: #00324d;
+   }
+   #ourMission2{
+     font-family: times;
+     color: #00324d;
+   }
+   /*section.latest figure:hover{
+     width: 350px;
+     height: 350px;
+     margin-top: 3%;
+   }*/
+   footer{
+     clear: both;
+     background-color: #ccecff;
+      color: #00324d;
+   }
+   footer a{
+     display: inline-block;
+     width: 30%;
+     text-decoration: none;
+     font-family: mygooglefont;
+      color: #00324d;
+     margin-left: 2%;
+   }
+   footer p{
+    color: #00324d;
+     font-family: mygooglefont;
+     display: inline-block;
+     width: 30%;
+     margin-left: 2%;
+   }
+   footer section{
+     margin-top: 2%;
+     display: inline-block;
+     width: 30%;
+     height: 10vh;
+   }
+   footer section span{
+     margin-top: 2%;
+      color: #00324d;
+     font-family: mygooglefont;
+     padding: 1%;
+   }
+  i.fab.fa-cc-visa{
+    color: white;
+  }
+  i.fab.fa-cc-paypal{
+    color: white;
+  }
+  i.fab.fa-amazon{
+    color: white;
+  }
+  /* CSS used here will be applied after bootstrap.css */
+.ekko-lightbox-nav-overlay a {
+    color: goldenrod;
+}
+.gallery-title {
+    text-align: center;
+	font-weight: 500;
+	border-bottom: 1px dotted orange;
+	margin-top: 1em;
+}

@@ -1,0 +1,12 @@
+#timer{
+  background-color: #cce6ff;
+  background-image: url(../imgs/background2.jpg);
+}
+.jumbotron{
+  height: 100vh;
+}
+h1{
+  font-family: times;
+  color: #001a33;
+  font-weight: bolder;
+}
