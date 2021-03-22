@@ -1,0 +1,33 @@
+
+#cnform{
+  margin-bottom: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+#nameinfo{
+  margin-bottom: 2%;
+}
+.btn-primary{
+  background-color: #00284d;
+  border-color: #00284d;
+}
+iframe{
+  height:500;
+  width: 400;
+  frameborder:0;
+  scrolling:0;
+   marginheight:0;
+    marginwidth:0;
+}
+.mapouter{
+  position:relative;
+  text-align:right;
+  height:500px;
+  width:400px;
+}
+  .gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    height:500px;
+    width:400px;
+  }
