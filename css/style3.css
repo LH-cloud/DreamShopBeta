@@ -1,6 +1,7 @@
 .jumbotron{
   background-image: url();
   background-color: #cce6ff;
+  height:90vh;
 }
 .lead{
   display: inline-block;
