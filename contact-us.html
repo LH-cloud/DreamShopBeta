@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dream Shop</title>
+    <link rel="stylesheet" href="css/default.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/style2.css">
+        <script src="js/needed.js"></script>
+  </head>
+  <body>
+    <script>$(document).on('click', '[data-toggle="lightbox"]', function(event) {
+    event.preventDefault();
+    $(this).ekkoLightbox({alwaysShowClose: true});
+});</script>
+    <header id="top">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="index.html" aria-label="Main-Header"><img src="imgs/logo/logo.png" alt="shop logo" class="logo">  Dream Shop</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Products
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="women.html">Women</a>
+          <a class="dropdown-item" href="men.html">Men</a>
+          <a class="dropdown-item" href="baby.html">Baby</a>
+          <a class="dropdown-item" href="accessories.html">Accessories</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="about-us.html">About Us</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="contact-us.html">Contact Us</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+    </header>
+    <main>
+      <div class="row">
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">E-mail Us</h5>
+        <p class="card-text">you can send us an e-mail to admin@domain.com and we'll get back to you.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Contact Form</h5>
+        <p class="card-text">Fill out the contact form and state the matter, we'll get back to you as  soon as possible.</p>
+        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapsecontactform" aria-expanded="false" aria-controls="collapsecontactform">
+  Contact Form
+  </button>
+      </div>
+    </div>
+  </div>
+  <div class="collapse" id="collapsecontactform">
+    <form aria-label="contact form" id="cnform">
+      <div class="form-row" id="nameinfo">
+        <div class="col">
+          <label for="fname">First name:</label>
+          <input type="text" class="form-control" placeholder="First name" id="fname">
+        </div>
+        <div class="col">
+            <label for="lname">Last name:</label>
+          <input type="text" class="form-control" placeholder="Last name" id="lname">
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="exampleFormControlInput1">Email address:</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+      </div>
+      <div class="form-group">
+        <label for="exampleFormControlSelect1">The issue:</label>
+        <select class="form-control" id="exampleFormControlSelect1">
+            <option>choose your issue category</option>
+          <option>Wish to return a product</option>
+          <option>Can't use a discount</option>
+          <option>Shipment problems</option>
+          <option>Product request</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="exampleFormControlTextarea1">state the issue: </label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
+</div>
+<div class="row">
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Address</h5>
+        <p class="card-text">Send a postal message or visit our center!</p>
+        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseaddress" aria-expanded="false" aria-controls="collapseaddress">
+Address
+  </button>
+      </div>
+    </div>
+  </div>
+  <div class="collapse" id="collapseaddress">
+    <div class="mapouter"><div class="gmap_canvas"><iframe width="400" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=2880%20Broadwa…=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://embedgooglemap.net/maps/26"></a><br><a href="https://www.embedgooglemap.net">embedded map</a></div></div>
+  </div>
+
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Twitter</h5>
+        <p class="card-text">Call out on twitter! our team will reply with a mention and re-tweet.</p>
+        <a href="#" class="btn btn-primary">Twitter Page</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    </main>
+    <footer>
+      <a href="#top" class="footer">Back to Top</a>
+      <p class="footer">All rights reserved. &COPY;</p>
+      <section class="accreditation"><span>Accredited By:</span> <br>
+        <i class="fab fa-amazon fa-2x" aria-label="Amazon" fa-3x></i>
+        <i class="fab fa-cc-paypal fa-2x" aria-label="PayPal" fa-3x></i>
+        <i class="fab fa-cc-visa fa-2x" aria-label="Visa" ></i>
+      </section>
+
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+      <script src="https://kit.fontawesome.com/5e178e01de.js" crossorigin="anonymous"></script>
+  </body>
+</html>
